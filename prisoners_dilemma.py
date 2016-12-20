@@ -305,7 +305,7 @@ def make_section3(modules, moves, scores, index):
             # Lines 3-4
             hist1, hist2 =  capitalize(moves[index][opponent_index], moves[opponent_index][index])
             while len(hist1) > 1:
-                section3 += hist1[:80] + '\n'
+                section3 += hist1[:80] + '\n\'
                 section3 += hist2[:80] + '\n\n'
                 hist1 = hist1[80:]
                 hist2 = hist2[80:]
